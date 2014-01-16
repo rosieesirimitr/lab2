@@ -1,6 +1,6 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
@@ -14,6 +14,12 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+	text-decoration: none;
+	font: normal 100% 'sans-serif'
+}
+
+.project {
+	margin-left:20px;
 }
 
 .jumbotron {
@@ -31,4 +37,25 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+a, a:hover
+{ outline: none;
+  text-decoration: none;
+  color: #D14F5F;
+  size: 14px;}
+
+a:hover
+{ text-decoration: underline;
+   size: 14px;}
+
+#header > h1 {
+	font: bolder 300% 'Bad Script', cursive;
+	letter-spacing: 3px;
+}
+
+#header > p {
+	font-size: 14px;
+	font-family: sans-serif;
+	letter-spacing:  1.5px;
 }
